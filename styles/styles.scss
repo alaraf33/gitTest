@@ -1,0 +1,171 @@
+/*header*/
+$color: #ffffff;
+$color_p: #000;
+body{
+   background: $color;
+   a{
+      color: lighten ($color, 25%);
+      text-decoration: none;
+   }
+   p{
+      color: $color_p;
+   }
+}
+a{
+   text-decoration: none !important;
+}
+   .black{
+      border: 8px  solid;
+      background-color: #000;
+   }
+   li{
+      list-style-type: none; 
+   }
+   .logo{
+      padding-top: 10px;
+   }
+   .nav-item{
+      padding-top: 40px;
+   }
+   .container{
+      max-width: 990px !important;
+   }
+   .navbar-collapse {
+      flex-grow: 0 ;
+   } 
+
+   navbar-toggler{
+      padding-right: 10px !important;
+   }
+/*/header*/
+
+/*header_img*/
+   
+   .header_cds{
+      position: relative;
+      padding-bottom: 40%;
+      background: url("../img/header_img.jpg") no-repeat center ;
+      background-size: cover;
+   }
+   .header_link{
+      position:absolute;
+      bottom: 10%;
+      left: 3%;
+      max-width: 100%;
+      color: #a4a4a4;
+   }
+   .view{
+     padding-left: 50px;
+   }
+   .header_link.p-2{
+      padding: .8rem !important;
+   }
+/*/header_img*/
+
+/*content*/
+.body_content{
+   
+   font-size: 12px;
+   padding-top: 20px;
+}
+.black{
+   border: 5px solid !important;
+}
+.read{
+   padding-left: 15px;
+}
+.patch{
+   font-size: 12px;
+   padding-top: 10px;
+}
+ .list-group li{
+   padding-left: 20px;
+   background: url("../img/p_copy.png") 0 15px no-repeat;  
+}
+.list{
+   padding-top: 10px;
+}
+.blok_0{
+   width: 100%;
+	height: 10px;
+   clear: both;
+}
+/*/content*/
+
+/*portfolio*/
+.layer{
+   max-width: 100% !important;
+   height: 0;
+   margin-bottom: 8px;
+   padding-bottom: 62%;
+}
+.Layer_16{
+   position: relative;
+   background: url("../img/Layer%2016.png") no-repeat center ;
+   background-size: cover;
+}
+.Layer_17{
+   position: relative;
+   background: url("../img/Layer%2017%20copy.png") no-repeat center ;
+   background-size: cover;
+}
+.Layer_18{
+   position: relative;
+   background: url("../img/Layer%2018.png") no-repeat center ;
+   background-size: cover;
+}
+.Layer_19{
+   position: relative;
+   background: url("../img/Layer%2019.png") no-repeat center ;
+   background-size: cover;
+}
+.link_portfolio {
+   padding-left: 8px;
+   padding-right: 5px;
+}
+.btn_view{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   font-size: .700rem;
+   padding: 0;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+//*portfolio*/
+
+/*footer*/
+
+.uSocial-Share{
+   text-align: center;
+   padding: 10px 0 0 15px !important;
+}
+.footer_p{
+   font-size: 12px;
+   padding-top: 10px;
+}
+.footter_us{
+   text-align: center;
+}
+
+//*footer*/
+/*copyright*/
+
+.copyright{
+   background-color: #dcdcdc;
+   padding: 10px 0 10px 0;
+   font-size: 12px;
+}
+.copyright_link a{
+   font-size: 12px;
+   color: #292626;
+}
+.copy_blok{
+   margin-top: 15px;
+}
+ .copyright p {
+   margin-bottom: 5px !important;
+}
+
+//*copyright*/

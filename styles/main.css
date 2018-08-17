@@ -1,0 +1,30 @@
+/*header*/
+
+.black{
+   border: 8px  solid;
+   background-color: #000;
+}
+li{
+   list-style-type: none; 
+}
+.logo{
+   padding-top: 10px;
+}
+.nav-item{
+   padding-top: 40px;
+}
+/*header*/
+/*header_img*/
+.container{
+   max-width: 990px !important;
+}
+.tt{
+   
+height: 380px;
+   
+   background: url("../img/header_img.jpg") no-repeat center ;
+/*   background-size: cover;*/
+   
+ 
+  
+}
